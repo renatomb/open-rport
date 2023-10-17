@@ -16,8 +16,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/h2non/gock.v1"
 
-	"github.com/realvnc-labs/rport/server/api/message"
-	"github.com/realvnc-labs/rport/server/api/users"
+	"github.com/renatomb/open-rport/server/api/message"
+	"github.com/renatomb/open-rport/server/api/users"
 )
 
 type usrService struct {

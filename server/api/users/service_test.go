@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/server/api/message"
-	"github.com/realvnc-labs/rport/share/enums"
+	errors2 "github.com/renatomb/open-rport/server/api/errors"
+	"github.com/renatomb/open-rport/server/api/message"
+	"github.com/renatomb/open-rport/share/enums"
 )
 
 type ProviderMock struct {

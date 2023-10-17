@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/realvnc-labs/rport/server/api/message"
-	"github.com/realvnc-labs/rport/server/caddy"
-	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/server/api/message"
+	"github.com/renatomb/open-rport/server/caddy"
+	"github.com/renatomb/open-rport/server/clients/clienttunnel"
+	"github.com/renatomb/open-rport/share/logger"
 
 	mapset "github.com/deckarep/golang-set"
 	"github.com/stretchr/testify/assert"

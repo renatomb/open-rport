@@ -11,9 +11,9 @@ import (
 	smtpmock "github.com/mocktools/go-smtp-mock/v2"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/realvnc-labs/rport/server/chconfig"
-	"github.com/realvnc-labs/rport/server/notifications/channels/rmailer"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/server/chconfig"
+	"github.com/renatomb/open-rport/server/notifications/channels/rmailer"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 var testLog = logger.NewLogger("client", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)

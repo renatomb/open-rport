@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/crypto/acme/autocert"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 const httpChallengeServerReadHeaderTimeout = 3 * time.Second

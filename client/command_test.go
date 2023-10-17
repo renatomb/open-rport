@@ -19,12 +19,12 @@ import (
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/encoding/ianaindex"
 
-	"github.com/realvnc-labs/rport/client/system"
-	"github.com/realvnc-labs/rport/share/clientconfig"
-	"github.com/realvnc-labs/rport/share/comm"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/test"
+	"github.com/renatomb/open-rport/client/system"
+	"github.com/renatomb/open-rport/share/clientconfig"
+	"github.com/renatomb/open-rport/share/comm"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/models"
+	"github.com/renatomb/open-rport/share/test"
 )
 
 type CmdExecutorMock struct {

@@ -3,7 +3,7 @@ package notifications
 import (
 	"context"
 
-	"github.com/realvnc-labs/rport/share/refs"
+	"github.com/renatomb/open-rport/share/refs"
 )
 
 type ProcessingState string

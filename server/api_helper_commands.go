@@ -7,11 +7,11 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/realvnc-labs/rport/server/api/jobs"
-	"github.com/realvnc-labs/rport/server/auditlog"
-	"github.com/realvnc-labs/rport/server/validation"
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/ws"
+	"github.com/renatomb/open-rport/server/api/jobs"
+	"github.com/renatomb/open-rport/server/auditlog"
+	"github.com/renatomb/open-rport/server/validation"
+	"github.com/renatomb/open-rport/share/models"
+	"github.com/renatomb/open-rport/share/ws"
 )
 
 func (al *APIListener) handleCommandsExecutionWS(

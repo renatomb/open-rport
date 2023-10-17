@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 const (

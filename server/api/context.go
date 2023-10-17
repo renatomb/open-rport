@@ -3,7 +3,7 @@ package api
 import (
 	"context"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 type userCtxKeyType string

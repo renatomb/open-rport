@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/realvnc-labs/rport/server/notifications/channels/scriptRunner"
+	"github.com/renatomb/open-rport/server/notifications/channels/scriptRunner"
 )
 
 var file = "out.json"

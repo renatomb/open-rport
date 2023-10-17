@@ -1,8 +1,8 @@
 package networking
 
 import (
-	"github.com/realvnc-labs/rport/share/clientconfig"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/renatomb/open-rport/share/clientconfig"
+	"github.com/renatomb/open-rport/share/models"
 )
 
 type NetHandler struct {

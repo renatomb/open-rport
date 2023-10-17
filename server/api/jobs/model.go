@@ -1,8 +1,8 @@
 package jobs
 
 import (
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/renatomb/open-rport/server/clients/clientdata"
+	"github.com/renatomb/open-rport/share/models"
 )
 
 type MultiJobRequest struct {

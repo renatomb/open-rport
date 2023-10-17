@@ -8,8 +8,8 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/shirou/gopsutil/v3/disk"
 
-	"github.com/realvnc-labs/rport/client/monitoring/helper"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/client/monitoring/helper"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 func DefaultMetrics() []string {

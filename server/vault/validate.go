@@ -3,7 +3,7 @@ package vault
 import (
 	"net/http"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+	errors2 "github.com/renatomb/open-rport/server/api/errors"
 )
 
 func Validate(iv *InputValue) error {

@@ -4,10 +4,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
-	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/renatomb/open-rport/server/clients/clientdata"
+	"github.com/renatomb/open-rport/server/clients/clienttunnel"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/models"
 )
 
 var (

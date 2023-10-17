@@ -11,7 +11,7 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 type TimeoutError struct {

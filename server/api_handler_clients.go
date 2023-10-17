@@ -10,18 +10,18 @@ import (
 	"github.com/gorilla/mux"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/realvnc-labs/rport/server/api"
-	apierrors "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/server/auditlog"
-	"github.com/realvnc-labs/rport/server/clients"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
-	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
-	"github.com/realvnc-labs/rport/server/ports"
-	"github.com/realvnc-labs/rport/server/routes"
-	"github.com/realvnc-labs/rport/server/validation"
-	"github.com/realvnc-labs/rport/share/comm"
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/renatomb/open-rport/server/api"
+	apierrors "github.com/renatomb/open-rport/server/api/errors"
+	"github.com/renatomb/open-rport/server/auditlog"
+	"github.com/renatomb/open-rport/server/clients"
+	"github.com/renatomb/open-rport/server/clients/clientdata"
+	"github.com/renatomb/open-rport/server/clients/clienttunnel"
+	"github.com/renatomb/open-rport/server/ports"
+	"github.com/renatomb/open-rport/server/routes"
+	"github.com/renatomb/open-rport/server/validation"
+	"github.com/renatomb/open-rport/share/comm"
+	"github.com/renatomb/open-rport/share/models"
+	"github.com/renatomb/open-rport/share/query"
 )
 
 func getCorrespondingSortFunc(sorts []query.SortOption) (sortFunc func(a []*clientdata.CalculatedClient, desc bool), desc bool, err error) {
@@ -445,7 +445,7 @@ func (al *APIListener) setAutoCloseIdleOptionsForRemote(req *http.Request, remot
 	return err
 }
 
-// TODO: remove this check, do it in client srv in startClientTunnels when https://github.com/realvnc-labs/rport/pull/252 will be in master.
+// TODO: remove this check, do it in client srv in startClientTunnels when https://github.com/renatomb/open-rport/pull/252 will be in master.
 // APIError needs both httpStatusCode and errorCode. To avoid too many merge conflicts with PR252 temporarily use this check to avoid breaking UI
 func (al *APIListener) checkLocalPort(localPort, protocol string) (err error) {
 	lport, err := strconv.Atoi(localPort)

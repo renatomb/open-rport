@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/realvnc-labs/rport/server/bearer"
+	"github.com/renatomb/open-rport/server/bearer"
 )
 
 func (al *APIListener) handleDeleteLogout(w http.ResponseWriter, req *http.Request) {

@@ -96,7 +96,7 @@ if ($diff -gt $threshHoldSec){
 ```
 
 🐶 A fully-featured rport watchdog for Windows implemented in PowerShell can be
-[downloaded here](https://github.com/realvnc-labs/rport-win-watchdog). It comes ready-to-use with an easy
+[downloaded here](https://github.com/renatomb/open-rport-win-watchdog). It comes ready-to-use with an easy
 installation.
 
 ### Using the systemd watchdog

@@ -20,13 +20,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/realvnc-labs/rport/client/system"
-	chshare "github.com/realvnc-labs/rport/share"
-	"github.com/realvnc-labs/rport/share/clientconfig"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/random"
-	"github.com/realvnc-labs/rport/share/test"
+	"github.com/renatomb/open-rport/client/system"
+	chshare "github.com/renatomb/open-rport/share"
+	"github.com/renatomb/open-rport/share/clientconfig"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/models"
+	"github.com/renatomb/open-rport/share/random"
+	"github.com/renatomb/open-rport/share/test"
 )
 
 func TestCustomHeaders(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
+	"github.com/renatomb/open-rport/server/clients/clientdata"
 )
 
 func TestClientsSqliteProvider(t *testing.T) {

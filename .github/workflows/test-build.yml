@@ -23,7 +23,7 @@ jobs:
           BRANCH=$(git status|grep "On branch"|cut -d" " -f3|tr '/' _)
           export VERSION=$(date -u +%y.%m%d.%H%M)-${BRANCH}
           # $(git rev-parse HEAD)
-          go build -v -ldflags="-X 'github.com/realvnc-labs/rport/share.BuildVersion=$VERSION'"  -o ./ ./cmd/...
+          go build -v -ldflags="-X 'github.com/renatomb/open-rport/share.BuildVersion=$VERSION'"  -o ./ ./cmd/...
           echo "✅ Successfully build rport"
           echo "🚚 Building Plus Plugin now ..."
           bash .github/scripts/build-plus.sh

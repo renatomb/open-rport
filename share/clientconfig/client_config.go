@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/models"
 )
 
 type Config struct {

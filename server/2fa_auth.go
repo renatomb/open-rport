@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/realvnc-labs/rport/server/api/users"
+	"github.com/renatomb/open-rport/server/api/users"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/server/api/message"
-	"github.com/realvnc-labs/rport/share/security"
+	errors2 "github.com/renatomb/open-rport/server/api/errors"
+	"github.com/renatomb/open-rport/server/api/message"
+	"github.com/renatomb/open-rport/share/security"
 )
 
 type TwoFAService struct {

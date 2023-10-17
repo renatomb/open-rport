@@ -5,9 +5,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/realvnc-labs/rport/server/api"
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/server/api"
+	errors2 "github.com/renatomb/open-rport/server/api/errors"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 func (al *APIListener) writeErrorResponseLog(errPayload api.ErrorPayload) {

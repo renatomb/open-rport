@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"sync"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/share/enums"
-	"github.com/realvnc-labs/rport/share/logger"
+	errors2 "github.com/renatomb/open-rport/server/api/errors"
+	"github.com/renatomb/open-rport/share/enums"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 type FileProvider interface {

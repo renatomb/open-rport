@@ -6,11 +6,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	rportplus "github.com/realvnc-labs/rport/plus"
-	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
-	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rundata"
-	"github.com/realvnc-labs/rport/server/api"
-	"github.com/realvnc-labs/rport/server/routes"
+	rportplus "github.com/renatomb/open-rport/plus"
+	alertingcap "github.com/renatomb/open-rport/plus/capabilities/alerting"
+	"github.com/renatomb/open-rport/plus/capabilities/alerting/entities/rundata"
+	"github.com/renatomb/open-rport/server/api"
+	"github.com/renatomb/open-rport/server/routes"
 )
 
 func (al *APIListener) getAlertingCapability() (capEx alertingcap.CapabilityEx, statusCode int, err error) {

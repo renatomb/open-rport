@@ -78,7 +78,7 @@ Installed-Size: ${INSTALLED_SIZE}
 Architecture: ${DST_ARCH}
 Section: misc
 Priority: optional
-Homepage: https://github.com/realvnc-labs/rport/
+Homepage: https://github.com/renatomb/open-rport/
 Description: Remote access and remote management of heterogeneous IT infrastructures
  RPort provides remote access to and script execution on systems
  behind firewalls and NAT
@@ -98,13 +98,13 @@ cat <<EOF | gzip -n --best -c >${PKG_ROOT}/usr/share/doc/${PKG_NAME}/changelog.g
 rport (${VERSION}); urgency=low
 
   * new version created by GitHub action
-  * Full changelog https://github.com/realvnc-labs/rport/releases/tag/${GITHUB_REF_NAME}
+  * Full changelog https://github.com/renatomb/open-rport/releases/tag/${GITHUB_REF_NAME}
 EOF
 chmod 0644 ${PKG_ROOT}/usr/share/doc/${PKG_NAME}/changelog.gz
 
 cat <<EOF >${PKG_ROOT}/usr/share/doc/${PKG_NAME}/copyright
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Source: https://github.com/realvnc-labs/rport/releases/tag/${GITHUB_REF_NAME}
+Source: https://github.com/renatomb/open-rport/releases/tag/${GITHUB_REF_NAME}
 Copyright: $(date +%Y)
 License: MIT
 

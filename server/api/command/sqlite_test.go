@@ -5,17 +5,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/realvnc-labs/rport/db/migration/library"
-	"github.com/realvnc-labs/rport/db/sqlite"
-	"github.com/realvnc-labs/rport/share/ptr"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/renatomb/open-rport/db/migration/library"
+	"github.com/renatomb/open-rport/db/sqlite"
+	"github.com/renatomb/open-rport/share/ptr"
+	"github.com/renatomb/open-rport/share/query"
 
 	"github.com/jmoiron/sqlx"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/share/test"
+	"github.com/renatomb/open-rport/share/test"
 )
 
 var timeoutSec = DefaultTimeoutSec

@@ -16,7 +16,7 @@ It's intended to be read by developers and experienced users who want to learn w
 
 ### Binaries
 
-We provide pre-compiled binaries. You can download them [here](https://github.com/realvnc-labs/rport/releases).
+We provide pre-compiled binaries. You can download them [here](https://github.com/renatomb/open-rport/releases).
 
 ### From source
 
@@ -255,8 +255,8 @@ Please refer to [clients on other operating systems](no05-client-on-other-os.md)
 
 Config files can be used to set up both the rport server and clients. In order to use it an arg `--config`(or `-c`)
 should be passed to a command with a path to the file. Configuration examples `rportd.example.conf`
-([view online](https://github.com/realvnc-labs/rport/blob/master/rportd.example.conf)) and `rport.example.conf`
-([view online](https://github.com/realvnc-labs/rport/blob/master/rport.example.conf)) can be found in the
+([view online](https://github.com/renatomb/open-rport/blob/master/rportd.example.conf)) and `rport.example.conf`
+([view online](https://github.com/renatomb/open-rport/blob/master/rport.example.conf)) can be found in the
 release archive or in the source.
 
 NOTE: command arguments and env variables will override values from the config file.
@@ -274,7 +274,7 @@ To prevent anyone who knows the address and the port of your rport server to use
 authentication is required.
 
 Using a static username password pair is the most basic option. See the comments in the
-[rportd.example.conf](https://github.com/realvnc-labs/rport/blob/master/rportd.example.conf) and read more about
+[rportd.example.conf](https://github.com/renatomb/open-rport/blob/master/rportd.example.conf) and read more about
 all supported [authentication options](no03-client-auth.md).
 
 On the client start the tunnel this way
@@ -294,6 +294,6 @@ The installation is quick and easy. [Learn more](/docs/content/get-started/no07-
 
 You can also manage clients, tunnels, and command from a user-friendly command-line utility. It's available as a
 stand-alone static binary for Windows and Linux.
-See [https://github.com/realvnc-labs/rportcli](https://github.com/realvnc-labs/rportcli).
+See [https://github.com/renatomb/open-rportcli](https://github.com/renatomb/open-rportcli).
 The command-line utility does not cover all API capabilities yet. But it's already a very useful tool making rport even
 more powerful.

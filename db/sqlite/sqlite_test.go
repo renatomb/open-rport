@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/db/migration/dummy"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/db/migration/dummy"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 func TestSqliteWALEnabled(t *testing.T) {

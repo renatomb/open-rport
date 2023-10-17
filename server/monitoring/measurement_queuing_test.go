@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/realvnc-labs/rport/server/monitoring"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/renatomb/open-rport/server/monitoring"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/models"
 )
 
 var testLog = logger.NewLogger("measurement-queue", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)

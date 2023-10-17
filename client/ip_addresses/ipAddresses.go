@@ -8,10 +8,10 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/realvnc-labs/rport/share/comm"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/myip"
+	"github.com/renatomb/open-rport/share/comm"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/models"
+	"github.com/renatomb/open-rport/share/myip"
 )
 
 type Fetcher struct {

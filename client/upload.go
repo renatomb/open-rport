@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	errors2 "github.com/realvnc-labs/rport/share/errors"
+	errors2 "github.com/renatomb/open-rport/share/errors"
 
-	"github.com/realvnc-labs/rport/client/system"
+	"github.com/renatomb/open-rport/client/system"
 
 	"github.com/pkg/sftp"
 
@@ -18,9 +18,9 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/realvnc-labs/rport/share/files"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/renatomb/open-rport/share/files"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/models"
 )
 
 type SourceFileProvider interface {

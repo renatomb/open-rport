@@ -3,7 +3,7 @@ package api
 import (
 	"errors"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+	errors2 "github.com/renatomb/open-rport/server/api/errors"
 )
 
 // SuccessPayload represents a uniform format for all successful API responses.

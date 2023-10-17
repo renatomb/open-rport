@@ -1,4 +1,4 @@
-module github.com/realvnc-labs/rport
+module github.com/renatomb/open-rport
 
 go 1.19
 

@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 type Server struct {

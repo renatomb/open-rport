@@ -14,12 +14,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/server/api"
-	"github.com/realvnc-labs/rport/server/chconfig"
-	"github.com/realvnc-labs/rport/server/clients"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
-	"github.com/realvnc-labs/rport/server/clientsauth"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/renatomb/open-rport/server/api"
+	"github.com/renatomb/open-rport/server/chconfig"
+	"github.com/renatomb/open-rport/server/clients"
+	"github.com/renatomb/open-rport/server/clients/clientdata"
+	"github.com/renatomb/open-rport/server/clientsauth"
+	"github.com/renatomb/open-rport/share/query"
 )
 
 var (

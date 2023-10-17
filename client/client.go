@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	ipAddresses "github.com/realvnc-labs/rport/client/ip_addresses"
+	ipAddresses "github.com/renatomb/open-rport/client/ip_addresses"
 
-	"github.com/realvnc-labs/rport/share/random"
+	"github.com/renatomb/open-rport/share/random"
 
 	"github.com/denisbrodbeck/machineid"
 	"github.com/pkg/errors"
@@ -28,14 +28,14 @@ import (
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/net/proxy"
 
-	"github.com/realvnc-labs/rport/client/monitoring"
-	"github.com/realvnc-labs/rport/client/system"
-	"github.com/realvnc-labs/rport/client/updates"
-	chshare "github.com/realvnc-labs/rport/share"
-	"github.com/realvnc-labs/rport/share/comm"
-	"github.com/realvnc-labs/rport/share/files"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/renatomb/open-rport/client/monitoring"
+	"github.com/renatomb/open-rport/client/system"
+	"github.com/renatomb/open-rport/client/updates"
+	chshare "github.com/renatomb/open-rport/share"
+	"github.com/renatomb/open-rport/share/comm"
+	"github.com/renatomb/open-rport/share/files"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/models"
 )
 
 const DialTimeout = 5 * 60 * time.Second

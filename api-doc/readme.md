@@ -3,7 +3,7 @@
 This folder contains the sources of rportd API documentation following the openapi 3.0.1 standard.
 
 If you came by here to read the API documentation go to [apidoc.rport.io](https://apidoc.rport.io/master/) to switch to the rendered HTML version.
-For those preferring swagger-style rendering, use [this link](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/realvnc-labs/rport/master/api-doc/openapi/openapi.yaml#/)
+For those preferring swagger-style rendering, use [this link](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/renatomb/open-rport/master/api-doc/openapi/openapi.yaml#/)
 
 ## Build the documentation from the sources
 

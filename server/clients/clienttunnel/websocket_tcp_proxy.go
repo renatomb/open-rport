@@ -6,7 +6,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 const websocketBufferSize = 1024

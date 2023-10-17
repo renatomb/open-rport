@@ -3,7 +3,7 @@ package script
 import (
 	"time"
 
-	"github.com/realvnc-labs/rport/share/types"
+	"github.com/renatomb/open-rport/share/types"
 )
 
 const DefaultTimeoutSec = 60

@@ -8,14 +8,14 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/realvnc-labs/rport/client/monitoring/fs"
-	"github.com/realvnc-labs/rport/client/monitoring/networking"
-	"github.com/realvnc-labs/rport/client/monitoring/processes"
-	"github.com/realvnc-labs/rport/client/system"
-	"github.com/realvnc-labs/rport/share/clientconfig"
-	"github.com/realvnc-labs/rport/share/comm"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/renatomb/open-rport/client/monitoring/fs"
+	"github.com/renatomb/open-rport/client/monitoring/networking"
+	"github.com/renatomb/open-rport/client/monitoring/processes"
+	"github.com/renatomb/open-rport/client/system"
+	"github.com/renatomb/open-rport/share/clientconfig"
+	"github.com/renatomb/open-rport/share/comm"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/models"
 )
 
 type Monitor struct {

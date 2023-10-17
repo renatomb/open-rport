@@ -9,10 +9,10 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/realvnc-labs/rport/server/cgroups"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/renatomb/open-rport/server/cgroups"
+	"github.com/renatomb/open-rport/server/clients/clientdata"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/query"
 )
 
 type ClientRepository struct {

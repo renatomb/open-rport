@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/share/enc"
+	errors2 "github.com/renatomb/open-rport/server/api/errors"
+	"github.com/renatomb/open-rport/share/enc"
 )
 
 const (

@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/realvnc-labs/rport/db/sqlite"
+	"github.com/renatomb/open-rport/db/sqlite"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/renatomb/open-rport/share/models"
+	"github.com/renatomb/open-rport/share/query"
 )
 
 var DataSourceOptions = sqlite.DataSourceOptions{WALEnabled: false}

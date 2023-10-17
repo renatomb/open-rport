@@ -87,7 +87,7 @@ Clients auth credentials can be read from and written to a database table.
 
 To use the database client authentication you must set up a global database connection in the `[database]` section of
 `rportd.conf` first. Only MySQL/MariaDB and SQLite3 are supported at the moment.
-The [example config](https://github.com/realvnc-labs/rport/blob/master/rportd.example.conf) contains all
+The [example config](https://github.com/renatomb/open-rport/blob/master/rportd.example.conf) contains all
 explanations on how to set up the database connection.
 
 The tables must be created manually.

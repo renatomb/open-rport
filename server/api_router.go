@@ -8,12 +8,12 @@ import (
 	"github.com/jpillora/requestlog"
 	"github.com/rs/cors"
 
-	rportplus "github.com/realvnc-labs/rport/plus"
-	"github.com/realvnc-labs/rport/plus/capabilities/oauth"
-	"github.com/realvnc-labs/rport/server/api/middleware"
-	"github.com/realvnc-labs/rport/server/api/users"
-	"github.com/realvnc-labs/rport/server/routes"
-	"github.com/realvnc-labs/rport/share/security"
+	rportplus "github.com/renatomb/open-rport/plus"
+	"github.com/renatomb/open-rport/plus/capabilities/oauth"
+	"github.com/renatomb/open-rport/server/api/middleware"
+	"github.com/renatomb/open-rport/server/api/users"
+	"github.com/renatomb/open-rport/server/routes"
+	"github.com/renatomb/open-rport/share/security"
 )
 
 // define which URL paths vue aka the frontend is using. Listed paths are rewritten to / aka returning index.html

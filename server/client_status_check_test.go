@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/realvnc-labs/rport/server/clients"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
-	"github.com/realvnc-labs/rport/share/comm"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/server/clients"
+	"github.com/renatomb/open-rport/server/clients/clientdata"
+	"github.com/renatomb/open-rport/share/comm"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 type mockSSHConn struct {

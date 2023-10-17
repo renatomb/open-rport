@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/realvnc-labs/rport/server/api"
-	"github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/renatomb/open-rport/server/api"
+	"github.com/renatomb/open-rport/server/api/errors"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/models"
+	"github.com/renatomb/open-rport/share/query"
 )
 
 type Service interface {

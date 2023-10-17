@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/comm"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/share/comm"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 const activeConnectionTimeout = 15 * time.Second

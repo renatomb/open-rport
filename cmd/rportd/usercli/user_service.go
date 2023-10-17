@@ -5,9 +5,9 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/realvnc-labs/rport/server/api/users"
-	"github.com/realvnc-labs/rport/server/chconfig"
-	"github.com/realvnc-labs/rport/share/enums"
+	"github.com/renatomb/open-rport/server/api/users"
+	"github.com/renatomb/open-rport/server/chconfig"
+	"github.com/renatomb/open-rport/share/enums"
 )
 
 type UserInput struct {

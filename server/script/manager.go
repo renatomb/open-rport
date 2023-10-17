@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/query"
-	"github.com/realvnc-labs/rport/share/types"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/query"
+	"github.com/renatomb/open-rport/share/types"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+	errors2 "github.com/renatomb/open-rport/server/api/errors"
 )
 
 var (

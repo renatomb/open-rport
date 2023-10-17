@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/realvnc-labs/rport/server/api"
-	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/renatomb/open-rport/server/api"
+	"github.com/renatomb/open-rport/server/clients/clienttunnel"
+	"github.com/renatomb/open-rport/share/models"
 )
 
 type TunnelPayload struct {

@@ -16,8 +16,8 @@ import (
 	"github.com/jpillora/sizestr"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/realvnc-labs/rport/share/backwardskey"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/share/backwardskey"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 // GenerateKey tries to stay compatible with go1.19 key generation

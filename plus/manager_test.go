@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	rportplus "github.com/realvnc-labs/rport/plus"
-	"github.com/realvnc-labs/rport/plus/license"
-	"github.com/realvnc-labs/rport/server/chconfig"
-	"github.com/realvnc-labs/rport/share/files"
-	"github.com/realvnc-labs/rport/share/logger"
+	rportplus "github.com/renatomb/open-rport/plus"
+	"github.com/renatomb/open-rport/plus/license"
+	"github.com/renatomb/open-rport/server/chconfig"
+	"github.com/renatomb/open-rport/share/files"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 var defaultValidMinServerConfig = chconfig.ServerConfig{

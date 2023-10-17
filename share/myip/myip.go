@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/renatomb/open-rport/share/models"
 )
 
 const (

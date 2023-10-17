@@ -1,8 +1,8 @@
 package clientsauth
 
 import (
-	"github.com/realvnc-labs/rport/share/enums"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/renatomb/open-rport/share/enums"
+	"github.com/renatomb/open-rport/share/query"
 )
 
 type Provider interface {

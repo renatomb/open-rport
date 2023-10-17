@@ -7,16 +7,16 @@ import (
 	"plugin"
 	"sync"
 
-	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
-	"github.com/realvnc-labs/rport/plus/capabilities/extendedpermission"
-	licensecap "github.com/realvnc-labs/rport/plus/capabilities/license"
-	"github.com/realvnc-labs/rport/plus/capabilities/oauth"
-	"github.com/realvnc-labs/rport/plus/capabilities/status"
-	"github.com/realvnc-labs/rport/plus/license"
-	"github.com/realvnc-labs/rport/plus/loader"
-	"github.com/realvnc-labs/rport/plus/validator"
-	"github.com/realvnc-labs/rport/share/files"
-	"github.com/realvnc-labs/rport/share/logger"
+	alertingcap "github.com/renatomb/open-rport/plus/capabilities/alerting"
+	"github.com/renatomb/open-rport/plus/capabilities/extendedpermission"
+	licensecap "github.com/renatomb/open-rport/plus/capabilities/license"
+	"github.com/renatomb/open-rport/plus/capabilities/oauth"
+	"github.com/renatomb/open-rport/plus/capabilities/status"
+	"github.com/renatomb/open-rport/plus/license"
+	"github.com/renatomb/open-rport/plus/loader"
+	"github.com/renatomb/open-rport/plus/validator"
+	"github.com/renatomb/open-rport/share/files"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 const (

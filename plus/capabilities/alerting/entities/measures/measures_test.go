@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/renatomb/open-rport/share/models"
 )
 
 func TestShouldCloneProcess(t *testing.T) {

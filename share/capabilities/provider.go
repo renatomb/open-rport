@@ -1,9 +1,9 @@
 package capabilities
 
 import (
-	"github.com/realvnc-labs/rport/server/chconfig"
-	chshare "github.com/realvnc-labs/rport/share"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/renatomb/open-rport/server/chconfig"
+	chshare "github.com/renatomb/open-rport/share"
+	"github.com/renatomb/open-rport/share/models"
 )
 
 func NewServerCapabilities(cfg *chconfig.MonitoringConfig) *models.Capabilities {

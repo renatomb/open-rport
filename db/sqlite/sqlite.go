@@ -12,7 +12,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	sql "github.com/mattn/go-sqlite3"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 const (

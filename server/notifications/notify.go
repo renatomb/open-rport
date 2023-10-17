@@ -3,7 +3,7 @@ package notifications
 import (
 	"fmt"
 
-	"github.com/realvnc-labs/rport/share/refs"
+	"github.com/renatomb/open-rport/share/refs"
 )
 
 // ContentType represents a content type for the Msg

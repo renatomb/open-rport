@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/realvnc-labs/rport/db/sqlite"
-	"github.com/realvnc-labs/rport/server/api/session"
-	"github.com/realvnc-labs/rport/server/bearer"
-	chshare "github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/db/sqlite"
+	"github.com/renatomb/open-rport/server/api/session"
+	"github.com/renatomb/open-rport/server/bearer"
+	chshare "github.com/renatomb/open-rport/share/logger"
 )
 
 var testLog = chshare.NewLogger("chserver-test", chshare.LogOutput{File: os.Stdout}, chshare.LogLevelDebug)

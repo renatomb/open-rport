@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/share/logger"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/realvnc-labs/rport/server/notifications"
-	"github.com/realvnc-labs/rport/share/refs"
+	"github.com/renatomb/open-rport/server/notifications"
+	"github.com/renatomb/open-rport/share/refs"
 )
 
 type DispatcherTestSuite struct {

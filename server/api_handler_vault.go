@@ -7,11 +7,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/realvnc-labs/rport/server/api"
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/server/auditlog"
-	"github.com/realvnc-labs/rport/server/routes"
-	"github.com/realvnc-labs/rport/server/vault"
+	"github.com/renatomb/open-rport/server/api"
+	errors2 "github.com/renatomb/open-rport/server/api/errors"
+	"github.com/renatomb/open-rport/server/auditlog"
+	"github.com/renatomb/open-rport/server/routes"
+	"github.com/renatomb/open-rport/server/vault"
 )
 
 func (al *APIListener) handleGetVaultStatus(w http.ResponseWriter, req *http.Request) {

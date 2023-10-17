@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/server/api/jobs"
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/ptr"
+	"github.com/renatomb/open-rport/server/api/jobs"
+	"github.com/renatomb/open-rport/share/models"
+	"github.com/renatomb/open-rport/share/ptr"
 )
 
 func TestToLastExecution(t *testing.T) {

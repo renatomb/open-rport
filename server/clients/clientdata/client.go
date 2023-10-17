@@ -9,14 +9,14 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/realvnc-labs/rport/server/api/users"
-	"github.com/realvnc-labs/rport/server/cgroups"
-	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
-	chshare "github.com/realvnc-labs/rport/share"
-	"github.com/realvnc-labs/rport/share/clientconfig"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/random"
+	"github.com/renatomb/open-rport/server/api/users"
+	"github.com/renatomb/open-rport/server/cgroups"
+	"github.com/renatomb/open-rport/server/clients/clienttunnel"
+	chshare "github.com/renatomb/open-rport/share"
+	"github.com/renatomb/open-rport/share/clientconfig"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/models"
+	"github.com/renatomb/open-rport/share/random"
 )
 
 func CopyAttrsToClient(attributes models.Attributes, client *Client) {

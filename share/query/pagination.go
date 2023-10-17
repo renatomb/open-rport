@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/realvnc-labs/rport/server/api/errors"
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+	"github.com/renatomb/open-rport/server/api/errors"
+	errors2 "github.com/renatomb/open-rport/server/api/errors"
 )
 
 type Pagination struct {

@@ -13,16 +13,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/db/migration/api_token"
-	"github.com/realvnc-labs/rport/db/sqlite"
-	"github.com/realvnc-labs/rport/server/api"
-	"github.com/realvnc-labs/rport/server/api/authorization"
-	"github.com/realvnc-labs/rport/server/api/users"
-	"github.com/realvnc-labs/rport/server/bearer"
-	"github.com/realvnc-labs/rport/server/chconfig"
-	"github.com/realvnc-labs/rport/share/ptr"
-	"github.com/realvnc-labs/rport/share/random"
-	"github.com/realvnc-labs/rport/share/security"
+	"github.com/renatomb/open-rport/db/migration/api_token"
+	"github.com/renatomb/open-rport/db/sqlite"
+	"github.com/renatomb/open-rport/server/api"
+	"github.com/renatomb/open-rport/server/api/authorization"
+	"github.com/renatomb/open-rport/server/api/users"
+	"github.com/renatomb/open-rport/server/bearer"
+	"github.com/renatomb/open-rport/server/chconfig"
+	"github.com/renatomb/open-rport/share/ptr"
+	"github.com/renatomb/open-rport/share/random"
+	"github.com/renatomb/open-rport/share/security"
 )
 
 func TestAPITokenOps(t *testing.T) {

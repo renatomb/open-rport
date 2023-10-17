@@ -3,8 +3,8 @@ package monitoring
 import (
 	"time"
 
-	"github.com/realvnc-labs/rport/share/query"
-	"github.com/realvnc-labs/rport/share/types"
+	"github.com/renatomb/open-rport/share/query"
+	"github.com/renatomb/open-rport/share/types"
 )
 
 const (

@@ -27,7 +27,7 @@ import (
 
 	"golang.org/x/crypto/hkdf"
 
-	"github.com/realvnc-labs/rport/share/backwardskey"
+	"github.com/renatomb/open-rport/share/backwardskey"
 )
 
 func testAllCurves(t *testing.T, f func(*testing.T, elliptic.Curve)) {

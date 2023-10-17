@@ -10,16 +10,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	rportplus "github.com/realvnc-labs/rport/plus"
-	licensecap "github.com/realvnc-labs/rport/plus/capabilities/license"
-	"github.com/realvnc-labs/rport/plus/capabilities/license/licensemock"
-	"github.com/realvnc-labs/rport/plus/capabilities/status"
-	"github.com/realvnc-labs/rport/plus/capabilities/status/statusmock"
-	"github.com/realvnc-labs/rport/server/api/authorization"
-	"github.com/realvnc-labs/rport/server/api/users"
-	"github.com/realvnc-labs/rport/server/chconfig"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/security"
+	rportplus "github.com/renatomb/open-rport/plus"
+	licensecap "github.com/renatomb/open-rport/plus/capabilities/license"
+	"github.com/renatomb/open-rport/plus/capabilities/license/licensemock"
+	"github.com/renatomb/open-rport/plus/capabilities/status"
+	"github.com/renatomb/open-rport/plus/capabilities/status/statusmock"
+	"github.com/renatomb/open-rport/server/api/authorization"
+	"github.com/renatomb/open-rport/server/api/users"
+	"github.com/renatomb/open-rport/server/chconfig"
+	"github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/security"
 )
 
 const (

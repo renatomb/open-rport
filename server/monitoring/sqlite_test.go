@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	chshare "github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/query"
-	"github.com/realvnc-labs/rport/share/types"
+	chshare "github.com/renatomb/open-rport/share/logger"
+	"github.com/renatomb/open-rport/share/models"
+	"github.com/renatomb/open-rport/share/query"
+	"github.com/renatomb/open-rport/share/types"
 )
 
 var testLog = chshare.NewLogger("monitoring", chshare.LogOutput{File: os.Stdout}, chshare.LogLevelDebug)

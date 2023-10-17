@@ -7,14 +7,14 @@ import (
 
 	"go.etcd.io/bbolt"
 
-	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/clientupdates"
-	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/measures"
-	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rules"
-	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rundata"
-	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/templates"
-	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/validations"
-	"github.com/realvnc-labs/rport/server/notifications"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/plus/capabilities/alerting/entities/clientupdates"
+	"github.com/renatomb/open-rport/plus/capabilities/alerting/entities/measures"
+	"github.com/renatomb/open-rport/plus/capabilities/alerting/entities/rules"
+	"github.com/renatomb/open-rport/plus/capabilities/alerting/entities/rundata"
+	"github.com/renatomb/open-rport/plus/capabilities/alerting/entities/templates"
+	"github.com/renatomb/open-rport/plus/capabilities/alerting/entities/validations"
+	"github.com/renatomb/open-rport/server/notifications"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 const NoLimit = -1

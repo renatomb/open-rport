@@ -8,12 +8,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/realvnc-labs/rport/server/api"
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/server/api/jobs"
-	"github.com/realvnc-labs/rport/server/auditlog"
-	"github.com/realvnc-labs/rport/server/routes"
-	"github.com/realvnc-labs/rport/share/ws"
+	"github.com/renatomb/open-rport/server/api"
+	errors2 "github.com/renatomb/open-rport/server/api/errors"
+	"github.com/renatomb/open-rport/server/api/jobs"
+	"github.com/renatomb/open-rport/server/auditlog"
+	"github.com/renatomb/open-rport/server/routes"
+	"github.com/renatomb/open-rport/share/ws"
 )
 
 // handleExecuteScript handles GET /clients/{client_id}/scripts

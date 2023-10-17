@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 type Processor interface {

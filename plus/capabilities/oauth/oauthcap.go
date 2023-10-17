@@ -3,8 +3,8 @@ package oauth
 import (
 	"plugin"
 
-	"github.com/realvnc-labs/rport/plus/validator"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/renatomb/open-rport/plus/validator"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 const (

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/random"
+	"github.com/renatomb/open-rport/share/random"
 
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/renatomb/open-rport/share/query"
 
 	"github.com/jmoiron/sqlx"
 )

@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/db/migration/auditlog"
-	"github.com/realvnc-labs/rport/db/sqlite"
-	"github.com/realvnc-labs/rport/share/test"
+	"github.com/renatomb/open-rport/db/migration/auditlog"
+	"github.com/renatomb/open-rport/db/sqlite"
+	"github.com/renatomb/open-rport/share/test"
 )
 
 func TestSqliteSave(t *testing.T) {

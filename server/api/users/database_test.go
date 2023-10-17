@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	extperm "github.com/realvnc-labs/rport/plus/capabilities/extendedpermission"
-	chshare "github.com/realvnc-labs/rport/share/logger"
+	extperm "github.com/renatomb/open-rport/plus/capabilities/extendedpermission"
+	chshare "github.com/renatomb/open-rport/share/logger"
 
-	"github.com/realvnc-labs/rport/share/test"
+	"github.com/renatomb/open-rport/share/test"
 
 	"github.com/jmoiron/sqlx"
 	_ "github.com/mattn/go-sqlite3"

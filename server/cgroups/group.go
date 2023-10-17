@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/realvnc-labs/rport/share/types"
+	"github.com/renatomb/open-rport/share/types"
 )
 
 const OptionsResource = "client_groups"

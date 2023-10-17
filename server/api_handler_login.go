@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"time"
 
-	rportplus "github.com/realvnc-labs/rport/plus"
-	"github.com/realvnc-labs/rport/server/api"
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/server/api/users"
-	"github.com/realvnc-labs/rport/server/bearer"
-	chshare "github.com/realvnc-labs/rport/share"
-	"github.com/realvnc-labs/rport/share/logger"
+	rportplus "github.com/renatomb/open-rport/plus"
+	"github.com/renatomb/open-rport/server/api"
+	errors2 "github.com/renatomb/open-rport/server/api/errors"
+	"github.com/renatomb/open-rport/server/api/users"
+	"github.com/renatomb/open-rport/server/bearer"
+	chshare "github.com/renatomb/open-rport/share"
+	"github.com/renatomb/open-rport/share/logger"
 )
 
 type twoFAResponse struct {
@@ -44,7 +44,7 @@ func (al *APIListener) handleGetLogin(w http.ResponseWriter, req *http.Request) 
 		return
 	}
 
-	// TODO: consider to move this check from all API endpoints to middleware similar to https://github.com/realvnc-labs/rport/pull/199/commits/4ca1ca9f56c557762d79a60ffc96d2de47f3133c
+	// TODO: consider to move this check from all API endpoints to middleware similar to https://github.com/renatomb/open-rport/pull/199/commits/4ca1ca9f56c557762d79a60ffc96d2de47f3133c
 	// ban IP if it sends a lot of bad requests
 	if !al.handleBannedIPs(req, false) {
 		return
