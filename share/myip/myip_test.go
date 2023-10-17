@@ -22,6 +22,8 @@ func startServer(t *testing.T) {
 			fmt.Fprintf(w, `{"ip":"127.0.0.1"}`)
 			return
 		}
+		// Handle the ipv6 request
+		fmt.Fprintf(w, `{"ip":"::1"}`)
 	})
 	http.HandleFunc("/bad", func(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusBadRequest)
@@ -44,6 +46,7 @@ func TestGetMyIps(t *testing.T) {
 
 	require.NoError(t, err)
 	assert.Equal(t, "127.0.0.1", ips.IPv4)
+	assert.Equal(t, "::1", ips.IPv6)
 }
 
 func TestGetMyIpsFailing(t *testing.T) {
