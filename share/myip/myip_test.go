@@ -22,8 +22,6 @@ func startServer(t *testing.T) {
 			fmt.Fprintf(w, `{"ip":"127.0.0.1"}`)
 			return
 		}
-		// Handle the ipv6 request
-		fmt.Fprintf(w, `{"ip":"::1"}`)
 	})
 	http.HandleFunc("/bad", func(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusBadRequest)
